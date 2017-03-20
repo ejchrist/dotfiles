@@ -1,0 +1,18 @@
+setenv TZ US/Eastern
+startup_message off
+hardstatus on
+hardstatus alwayslastline
+hardstaatus string "%c %w"
+escape ^tt
+vbell off
+screen -t 0
+screen -t 1
+screen -t 2
+screen -t 3
+screen -t 4
+screen -t 5
+screen -t 6
+screen -t 7
+screen -t 8
+screen -t 9
+
