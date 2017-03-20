@@ -1,8 +1,9 @@
+backtick 0 0 1 /bin/date '+%a %Y-%m-%d %H:%M:%S'
 setenv TZ US/Eastern
 startup_message off
 hardstatus on
 hardstatus alwayslastline
-hardstaatus string "%c %w"
+hardstaatus string '%1` | %w'
 escape ^tt
 vbell off
 screen -t 0
